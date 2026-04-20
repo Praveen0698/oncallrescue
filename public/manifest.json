@@ -1,0 +1,41 @@
+{
+  "name": "OnCallRescue — Emergency Medical ID",
+  "short_name": "OnCallRescue",
+  "description": "Your encrypted emergency identity — accessible when it matters most.",
+  "start_url": "/",
+  "id": "/",
+  "display": "standalone",
+  "background_color": "#F6F5F0",
+  "theme_color": "#C8372D",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": ["health", "medical", "safety"],
+  "lang": "en",
+  "prefer_related_applications": false
+}
