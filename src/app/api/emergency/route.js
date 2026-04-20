@@ -155,7 +155,7 @@ export async function POST(request) {
       // Send admin notification with FULL unmasked details
       try {
         const { sendAdminEmergencyEmail } = await import("@/lib/email");
-        const adminEmail = process.env.SMTP_USER;
+        const adminEmail = process.env.ADMIN_EMAIL;
         if (adminEmail) {
           sendAdminEmergencyEmail({
             to: adminEmail,
